@@ -134,16 +134,14 @@ li a:hover {
 .actual1{
     max-width: 100%;
     height: auto;
-    margin-bottom: 8%;
-
-
+    margin-bottom: 8%
 }
 
 .actual{
-    width: auto;
-    height: auto;
-    object-fit: none;
-    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .cover{
