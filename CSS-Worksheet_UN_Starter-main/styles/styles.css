@@ -5,6 +5,8 @@ header{
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    background-color: #e8ddbe ;
+
 }
 
 /* This will apply all included styles to any element which uses the "logo" class*/
@@ -17,7 +19,139 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  #ffffff;
 
 }
 
 /* Create your own classes below! */
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff ;
+}
+.active {
+    background-color: #ffffff ;
+}
+
+
+.text-box{
+    width: 400px;
+    border: 1px;
+    padding: 25px;
+    margin: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.colors-2{
+    background-color: #e8ddbe;
+}
+
+.colors-3{
+    background-color: #fae8e7;
+}
+
+
+.flex-container{
+    display: flex;
+    padding: 75px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    overflow: hidden;
+
+}
+
+.alternated-color{
+    display: flex;
+    background-color: #fae8e7;
+    padding: 25px;
+    border-radius: 25px;
+
+}
+
+.flex-containerA{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1px;
+    overflow: hidden;
+
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.height-width1{
+    background-color: #fae8e7;
+    height: 100vh;
+    width: 100vw;
+}
+
+.height{
+    background-color: #e8ddbe ;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tile{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/coffee.jpg');
+    background-repeat: repeat;
+
+    
+}
+
+.actual1{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8%;
+
+
+}
+
+.actual{
+    width: auto;
+    height: auto;
+    object-fit: none;
+    margin-bottom: 8%;
+}
+
+.cover{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/coffee.jpg');
+    background-size: cover;
+
+    
+}
+

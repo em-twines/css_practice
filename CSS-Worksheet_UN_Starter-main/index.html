@@ -8,7 +8,7 @@
     <title>CSS Worksheet</title>
 </head>
 <body>
-    <nav>
+    <nav class ="active">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -35,7 +35,7 @@
     </section>
 
     <section>
-        <p>
+        <p class="text-box">
             Create a class to style this &lt;p&gt; element to have a width of 400px, a <b>solid</b> border 1 px thick, and <b>rounded borders</b>. Once you have this class, remember that you can re-use this class anytime you need to create a similar text block! <br>
             <br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
@@ -71,8 +71,14 @@
             <br>
             Then, alternate the color classes you created for the previous section so that the box in the center is the inverse of the boxes on the outside.
         </p>
-
+    <div class = "flex-container">
         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
+            <br>
+            End of box.
+        </p>
+
+        <p class = "alternated-color">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
             <br>
             End of box.
@@ -83,12 +89,7 @@
             <br>
             End of box.
         </p>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
-            <br>
-            End of box.
-        </p>
+    </div>
     </section>
 
     <section>
@@ -103,8 +104,9 @@
                 End of box.
             </p>
             
-
-
+            <p class = "flex-container alternated-color">
+                <img src="images/coffee.jpg" alt = "coffee beans pouring from a tan esresso cup">
+            </p>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
                 <br>
@@ -118,33 +120,37 @@
     </section>
 
     <section>
-        <p>
-            Here, we have 4 paragraphs. Style this section similar to the previous two, with 3 spaced out columns. But this time, have the center column contain the middle two paragraphs, stacked on top of each other. Hint: Remember you can have flexbox containers inside flexbox containers!
-        </p>
+            <p>
+                Here, we have 4 paragraphs. Style this section similar to the previous two, with 3 spaced out columns. But this time, have the center column contain the middle two paragraphs, stacked on top of each other. Hint: Remember you can have flexbox containers inside flexbox containers!
+            </p>
+            
+            <div class = "flex-container">
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
-            <br>
-            End of box.
-        </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
+                    <br>
+                    End of box.
+                </p>
+                <div class = "flex-container2">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
+                        <br>
+                        End of box.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
+                        <br>
+                        End of box.
+                    </p>
+                </div>
 
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
                 <br>
                 End of box.
             </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
-                <br>
-                End of box.
-            </p>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat lacus, ut ullamcorper quam venenatis id. Fusce at orci vestibulum tortor condimentum dapibus in tristique justo. Morbi turpis felis, eleifend eget volutpat ut, faucibus ac neque. Nam eget magna id ligula fringilla rutrum. Vivamus lorem eros, aliquet in lacus interdum, sagittis vehicula tellus. Nam sit amet rhoncus nisl, id aliquam ipsum. Nullam ultrices sed elit ac fermentum. Proin ultrices semper neque, quis lacinia diam interdum sit amet. Ut tincidunt ligula in eros gravida, ac molestie urna porttitor.<br>
-            <br>
-            End of box.
-        </p>
+        </div>
 
     </section>
 
@@ -155,8 +161,8 @@
             When you figure it out, change the offending width to the other measurement to make the scrollbar disappear.
         </p>
 
-        <div></div>
-        <div></div>
+        <div class = 'height-width1'></div>   
+        <div class = "height"></div>
 
 
         </section>
@@ -167,22 +173,23 @@
             <br>
             Here, there are three more divs. Apply a class to each so that they will take up the full screen, like the previous colored divs. Then, create a new class for each div which will give it a background image, using the included coffee.jpg image.
         </p>
-
-        <p>
+     
+        <p >
             For this div, have the background image repeat and "tile" the entire area of the screen:
         </p>
-        <div></div>
+
+        <div class = 'tile' ></div>
 
         <p>
             Have the background image show up as its actual size:
         </p>
-        <div></div>
-
+        <div class = 'actual' >
+         
+        </div>
         <p>
             Finally, stretch the background image so that it takes up the entire space: (Use CSS to do this, do not modify the image file's size.)
         </p>
-        <div></div>
-        
+        <div class = 'cover' ></div>
     </section>
     
 </body>
